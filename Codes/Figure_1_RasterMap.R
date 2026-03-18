@@ -9,8 +9,10 @@ library(RColorBrewer)
 library(sf)
 library(maps)
 library(mapdata)
+library(geodata)
 
 # Retrieving data from worldclim - 12th layer is the precipitation, res. 0.5 requires lat/long
+Worldclim<- worldclim_global(var = "bio", res = 0.5, path = "data/") # I used this to download the worclim data on my computer
 climate <- raster('wc2.1_30s_bio/wc2.1_30s_bio_12.tif')
 coords_min <- extent(-98.5, -89.2, 37, 49.5)
 climcrop <- crop(climate, coords_min)
