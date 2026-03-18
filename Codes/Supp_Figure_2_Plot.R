@@ -12,9 +12,8 @@ library(ggplot2)
 library(multcompView)
 library(emmeans)
 
-setwd("~/Documents/HP_Cedric_data/HP_Sequence/Combined_Allsites/Original_Directory_check")
 
-#Drawing
+# Drawing
 
 #Calling the data set - These are bray-curtis distances obtain from vegan : see PERMANOVA codes 
 dist.abund3<- read.csv("Analysis_without_SingletonsAndDoubletons/Plant_Bray_curtis_Matrix_NoSingle_Double.csv")
@@ -23,11 +22,11 @@ dist.long= subset(dist.long, value != "0") # removing the comparisons of the sam
 dist.long$Bray = 1-dist.long$value # To get similarity
 
 
-#Now bring the mapping file
+# Now bring the mapping file
 Sample1<- read.csv("Plant_Mapping_Sample1_BC_Comp_B.csv")
 Sample2<- read.csv("Plant_Mapping_Sample2_BC_Comp.csv")
 
-##Joining dataset
+## Joining dataset
 Plant1 <-left_join(dist.long,Sample1, by="Name")
 Plant2 <-left_join(Plant1,Sample2, by="variable")
 Plant2<- subset(Plant2, Hostsample1 == "SCSC")
@@ -35,7 +34,7 @@ Plant2<- subset(Plant2, Hostsample2 == "SCSC")
 Plant2b<- subset(Plant2, RemoveExtraSample1 == "Yes")
 Plant2b<- subset(Plant2b, RemoveExtraSample2 == "Yes")
 
-#Adding new variables based conditions of comparisons
+# Adding new variables based conditions of comparisons
 output.df <- Plant2b
 
 ## Make combination line Within vs Between sites comparisonoutput.df['com'] = rep(NA, nrow(Plant2b)) 
