@@ -1,0 +1,21 @@
+﻿sample1,2Yearsample1,Hostsample1,Yearsample1,YearMAP1samp1,YearMAP2samp1,Hostsamp1,Codesamp1,Locationsamp1,Regionsamp1,MAPsamp1,Latitudesamp1,Longitudesamp1,Ecoregionsamp1,Pooling
+CWRCornY_2018,Yes,Yes,Y_2018,45.1,1008.3,Corn,CWR,Cottonwood River SNA,Central,699,44.1214121,-95.0617142,Northern Tallgrass Prairie,Site
+CWRSCSCY_2018,Yes,Yes,Y_2018,45.1,1008.3,SCSC,CWR,Cottonwood River SNA,Central,699,44.1214157,-95.06171,Northern Tallgrass Prairie,Site
+CWRSCSCY_2019,Yes,No,Y_2019,45.1,1075,SCSC,CWR,Cottonwood River SNA,Central,699,44.12141,-95.06171,Northern Tallgrass Prairie,Site
+DMRSCSCY_2019,No,No,Y_2019,,1075,SCSC,DMR,Des Moines River Prairie,Central,704,43.47572,-95.4505,Northern Tallgrass Prairie,Site
+HSCCornY_2018,Yes,Yes,Y_2018,33.52,851.9,Corn,HSC,Hasting Sand Coulee ,East,850,44.42428,-92.49619,Prairie-Forest Border,Site
+HSCSCSCY_2018,Yes,Yes,Y_2018,33.52,851.9,SCSC,HSC,Hasting Sand Coulee ,East,850,44.424283e,-92.49619,Prairie-Forest Border,Site
+HSCSCSCY_2019,Yes,No,Y_2019,40.3,1109.5,SCSC,HSC,Hasting Sand Coulee ,East,850,44.42428,-92.49619,Prairie-Forest Border,Site
+HTMSCSCY_2019,No,No,Y_2019,,1052.2,SCSC,HTM,Hole-in-the Mountain Prairie,West,629,44.14408,-96.17912,Northern Tallgrass Prairie,Site
+KNZSCSCY_2020,No,No,Y_2020,828,828,SCSC,KNZ,Konza Prairie,West,835,39.076272,-96.592229,Northern Tallgrass Prairie,Site
+KWDCornY_2018,Yes,Yes,Y_2018,40.95,1074.1,Corn,KWD,Kellogg Weaver Dunes,East,892,44.15486,-91.5596349,Prairie-Forest Border,Site
+KWDSCSCY_2018,Yes,Yes,Y_2018,40.95,1074.1,SCSC,KWD,Kellogg Weaver Dunes,East,892,44.1548645,-91.55963,Prairie-Forest Border,Site
+KWDSCSCY_2019,Yes,No,Y_2019,46.8,1213.8,SCSC,KWD,Kellogg Weaver Dunes,East,892,44.15486,-91.55963,Prairie-Forest Border,Site
+MPSCSCY_2019,No,No,Y_2019,,1135.8,SCSC,MP,Mound Prairie SNA,East,939,43.45996,-91.25462,Prairie-Forest Border,Site
+PCCornY_2018,Yes,Yes,Y_2018,36.6,931.5,Corn,PC,Prairie Coteau,West,686,44.74682,-96.9263,Northern Tallgrass Prairie,Site
+PCSCSCY_2018,Yes,Yes,Y_2018,36.6,931.5,SCSC,PC,Prairie Coteau,West,686,44.7463,-96.9263,Northern Tallgrass Prairie,Site
+PCSCSCY_2019,Yes,No,Y_2019,41.43,1052.2,SCSC,PC,Prairie Coteau,West,686,44.746,-96.9263,Northern Tallgrass Prairie,Site
+RRSCSCY_2019,No,No,Y_2019,,1075,SCSC,RR,Red Rock Prairie,Central,726,44.5151,-95.10196,Northern Tallgrass Prairie,Site
+SPCornY_2018,Yes,Yes,Y_2018,31.85,767.4,Corn,SP,Sioux Prairie,West,564,44.032214,-96.7805454,Northern Tallgrass Prairie,Site
+SPSCSCY_2018,Yes,Yes,Y_2018,31.85,767.4,SCSC,SP,Sioux Prairie,West,564,44.0322149,-96.78054,Northern Tallgrass Prairie,Site
+SPSCSCY_2019,Yes,No,Y_2019,38.47,1132.5,SCSC,SP,Sioux Prairie,West,564,44.032214,-96.78054,Northern Tallgrass Prairie,Site
