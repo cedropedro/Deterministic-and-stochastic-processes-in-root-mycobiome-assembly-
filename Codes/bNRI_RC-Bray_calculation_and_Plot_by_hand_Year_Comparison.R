@@ -14,7 +14,7 @@ library(phytools)
 
 
 # Calling the tree
-Mytree<- ape::read.tree(file= 'HP_Tree_ForbNTIRC.txt')
+Mytree<- ape::read.tree(file= 'HP_Tree_ForbNRIRC.txt')
 
 # Site - level analyses
 ## Calculating bNRI and RC-Bray
